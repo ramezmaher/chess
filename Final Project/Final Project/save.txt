@@ -1,0 +1,9 @@
+  RNBQKBNR  1
+  PP PPPPP  2
+            3
+    P       4
+            5
+     p p    6
+  ppp p pp  7
+  rnbqkbnr  8
+BLABCDEFGHWL*

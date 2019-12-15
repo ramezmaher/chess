@@ -1,0 +1,94 @@
+Welcome to Chess !! 
+Game instructions:
+1-The game starts with white players turn,
+  followed then by the black's and so on.
+2-White pieces are indicated by minimal characters
+  on the board:
+  p --> pawn 
+  r --> rook
+  n --> knight
+  b --> bishop
+  q --> queen
+  k --> king
+3-Black pieces are indicated by capital characters
+  on the board:
+  P --> pawn 
+  R --> rook
+  N --> knight
+  B --> bishop
+  Q --> queen
+  K --> king
+4-'[]' indicate white squares
+  '{}' indicates black ones
+5-Black's pieces are located on the top of the board
+  while white's in the bottom
+6-Motion:
+     **In order for a player to choose his/her next move
+     you should select the square where the piece you wish to
+     move is located by writing its coordinats.
+     coordinats of any piece can be incicated by the number of its row
+     indicated on the very left of the board
+     and its column indicated by capital letters
+     from A to H on the bottom
+     **Afer choosing the piece you which to move
+     you shall insert the location you which to send
+     this piece to
+     **Move selection happens by writing a single line
+     containing both the location of the desired piece
+     and the location
+     where it will be sent , as follows
+     A2A3 whill result for the black pawn
+     to move a step forward
+     **Note that if you insert an invalid move the game will not do it
+     and will keep asking you for another move selection
+7-Lost pieces:
+     **Too bad,your opponent did a smart move and he took out your queen,
+     if you're playing with the black pieces ,you can find all
+     your lost pieces pn the left side of the board
+     on the two columns named B and L which significates Black Losses
+     while white's lost pieces are on the right side of the board
+     on the two columns named W and L which significates White Losses   
+8-promotion:
+     **When you reach the last line of the opponent's side with a pawn
+     you have the right to promote it to any advanced piece
+     such as the queen or rook
+     So when you are one square away from the last line
+     your move selection sentence won't be same as usual
+     you should insert the valid move as usual
+     but also add at the end a single character representing
+     the type of piece you wich to promote your pawn to.
+     pieces symboles are indicated in the top of this file
+     beware to choose the coresponding type
+     so if you are the white you can't right 'Q'
+     because that's the black's queen
+     example:
+     A2A1r--> this sentence means
+     that you are willing to choose the pawn at A2
+     and send it to A1 and promote it to a rook
+     **Note that you can't reach the last line with a pawn
+     and not promote it.
+9-Check!:
+     **When your opponent does a check on you
+     that means that he is one move away from killing your king,
+     you cannot move any pieces that doesn't protect your king
+     from a certain death.
+10-End Game:
+     **the game can end in two situation
+     a] If your opponent does a check on you
+     and you have no piece to remove this check with
+     nor can't move your king to avoid this check
+     this will result for your loss
+     by a Checkmate.
+     b] If its not a Checkmate but you have no where to go to
+     no valid moves ,this results a draw  and is called Stalemate
+11-Save:
+     **Any player can save the game by typing SAVE
+12-Load:
+     **Any player can load a game only
+     if there is a save that already exists
+     by typing LOAD
+13-Undo:
+     **Any player can undo his/her move by typing UNDO
+     unless in the case of check
+14-Redo:
+     **Any player can redo a move he/she undone it by typing REDO
